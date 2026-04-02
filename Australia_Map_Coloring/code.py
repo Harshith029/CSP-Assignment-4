@@ -1,5 +1,3 @@
-# Australia Map Coloring using Backtracking (CSP)
-
 states = ["WA", "NT", "Q", "SA", "NSW", "V", "T"]
 
 neighbors = {
@@ -34,7 +32,7 @@ def solve(index):
             if solve(index + 1):
                 return True
             
-            del solution[state]  # backtrack
+            del solution[state]
     
     return False
 
