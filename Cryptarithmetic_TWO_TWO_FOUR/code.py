@@ -1,5 +1,3 @@
-# Cryptarithmetic: TWO + TWO = FOUR
-
 import itertools
 
 letters = "TWOFUR"
