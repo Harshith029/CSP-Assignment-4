@@ -1,5 +1,3 @@
-# Telangana Map Coloring (simplified CSP)
-
 districts = ["Adilabad", "Nizamabad", "Karimnagar", "Warangal", "Khammam"]
 
 neighbors = {
